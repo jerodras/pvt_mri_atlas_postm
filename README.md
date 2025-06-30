@@ -11,10 +11,10 @@ This atlas is provided in formats compatible with major neuroimaging toolkits (F
 ```
 pvt_atlas/
 ├── data/
-│   ├── PVT_mask_MNI152.nii.gz            # Core binary mask in MNI152 0.5mm space
-│   ├── PVT_mask_FSL.nii.gz               # FSL-ready version
-│   ├── PVT_mask_FreeSurfer.mgz           # FreeSurfer format
-│   ├── PVT_mask_CIVET.mnc                # CIVET-compatible mask
+│   ├── PVT_mask_MNI152.nii.gz            # Core binary mask in FSL MNI152 0.5mm space
+│   ├── PVT_mask_MNI152_1mm.nii.gz        # Core binary mask in FSL MNI152 1.0mm space
+│   ├── PVT_mask_FreeSurfer.mgz           # FreeSurfer format, in fsaverage space
+│   ├── PVT_mask_CIVET.mnc                # CIVET-compatible mask in MNI-ICBM152 Nonlinear 2009c Sym space
 ├── figures/
 │   ├── overview_pipeline.png             # [PLACEHOLDER: Upload pipeline diagram]
 │   ├── mask_overlay_views.png            # [PLACEHOLDER: Upload mask overlay image]
