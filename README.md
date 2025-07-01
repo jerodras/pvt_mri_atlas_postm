@@ -21,7 +21,6 @@ pvt_atlas/
 ├── examples/
 │   ├── example_usage_fsl.sh              # Example FSL script
 │   ├── example_usage_freesurfer.sh       # Example FreeSurfer script
-├── LICENSE
 └── README.md
 ```
 
