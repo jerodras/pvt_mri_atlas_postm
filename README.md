@@ -15,12 +15,6 @@ pvt_atlas/
 │   ├── PVT_mask_MNI152_1mm.nii.gz        # Core binary mask in FSL MNI152 1.0mm space
 │   ├── PVT_mask_FreeSurfer.mgz           # FreeSurfer format, in fsaverage space
 │   ├── PVT_mask_CIVET.mnc                # CIVET-compatible mask in MNI-ICBM152 Nonlinear 2009c Sym space
-├── figures/
-│   ├── pipeline.png                      # pipeline overview for registration
-│   ├── overlay.png                       # example overlays
-├── examples/
-│   ├── example_usage_fsl.sh              # Example FSL script
-│   ├── example_usage_freesurfer.sh       # Example FreeSurfer script
 └── README.md
 ```
 
