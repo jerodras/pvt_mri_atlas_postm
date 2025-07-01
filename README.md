@@ -9,7 +9,7 @@ This atlas is provided in formats compatible with major neuroimaging toolkits (F
 ## Repository Structure
 
 ```
-pvt_atlas/
+pvt_mri_atlas_postm/
 ├── data/
 │   ├── PVT_mask_MNI152.nii.gz            # Core binary mask in FSL MNI152 0.5mm space
 │   ├── PVT_mask_MNI152_1mm.nii.gz        # Core binary mask in FSL MNI152 1.0mm space
