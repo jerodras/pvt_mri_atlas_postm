@@ -24,7 +24,7 @@ pvt_mri_atlas_postm/
 - Derived from a **postmortem human brain** using high-resolution MRI (9.4T and 3T) and **calretinin immunohistochemistry**
 - Aligned to **MNI152 (0.5 mm resolution)** using ANTs and FSL tools
 - Provides greater posterior coverage than the Morel/Krauth atlas, consistent with cross-species anatomical reports
-- Original atlas is provided in 0.5mm iso MNI space. Other atlases shared here have been resampled using a partial volume >0.2 to avoid dilution of the small ROI. Weighted averaging or nearest neighbor statistics are recommended for analysis.
+- Original atlas is provided in 0.5mm iso MNI space. Other atlases shared here have been resampled using a partial volume >0.2 to avoid dilution of the small ROI. Weighted averaging or nearest neighbor statistics based on the high-resolution atlas are recommended for analysis.
 
 For full methods and validation, see the associated manuscript:  
 **_"A combined neuroanatomy, ex vivo imaging, and immunohistochemistry defined MRI mask for the human paraventricular nucleus of the thalamus"_**  
