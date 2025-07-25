@@ -11,8 +11,8 @@ This atlas is provided in formats compatible with major neuroimaging toolkits (F
 ```
 pvt_mri_atlas_postm/
 ├── data/
-│   ├── PVT_mask_MNI152.nii.gz            # Core binary mask in FSL MNI152 0.5mm space
-│   ├── PVT_mask_MNI152_1mm.nii.gz        # Core binary mask in FSL MNI152 1.0mm space
+│   ├── PVT_Tetzlaff_Leonard_2025_0p5.nii.gz            # Core binary mask in FSL MNI152 0.5mm space
+│   ├── PVT_Tetzlaff_Leonard_2025_1p0.nii.gz        # Core binary mask in FSL MNI152 1.0mm space
 │   ├── PVT_mask_FreeSurfer.mgz           # FreeSurfer format, in fsaverage space
 │   ├── PVT_mask_CIVET.mnc                # CIVET-compatible mask in MNI-ICBM152 Nonlinear 2009c Sym space
 └── README.md
