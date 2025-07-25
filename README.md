@@ -42,10 +42,3 @@ The mask has been validated using resting-state fMRI from the HCP 7T dataset. Co
 
 If you use this atlas, please cite the associated publication:  
 **[FORTHCOMING]**
-
----
-
-## Feedback & Issues
-
-If you encounter issues or have requests for additional formats, please open an issue or contact:  
-**Jerod M. Rasmussen (rasmussj@hs.uci.edu)**
