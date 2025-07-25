@@ -12,9 +12,8 @@ This atlas is provided in formats compatible with major neuroimaging toolkits (F
 pvt_mri_atlas_postm/
 ├── data/
 │   ├── PVT_Tetzlaff_Leonard_2025_0p5.nii.gz            # Core binary mask in FSL MNI152 0.5mm space
-│   ├── PVT_Tetzlaff_Leonard_2025_1p0.nii.gz        # Core binary mask in FSL MNI152 1.0mm space
-│   ├── PVT_mask_FreeSurfer.mgz           # FreeSurfer format, in fsaverage space
-│   ├── PVT_mask_CIVET.mnc                # CIVET-compatible mask in MNI-ICBM152 Nonlinear 2009c Sym space
+│   ├── PVT_mask_FreeSurfer.mgz           # FreeSurfer format, in fsaverage space, partial-volumed at 0.2
+│   ├── PVT_mask_CIVET.mnc                # CIVET-compatible mask in MNI-ICBM152 Nonlinear 2009c Sym space, partial-volumed at 0.2
 └── README.md
 ```
 
@@ -32,7 +31,7 @@ For full methods and validation, see the associated manuscript:
 
 ---
 
-## How to Use
+## Usage examples
 
 ### FSL
 ```bash
@@ -42,12 +41,6 @@ fslmaths your_image.nii.gz -mas PVT_mask_FSL.nii.gz output_masked.nii.gz
 ### FreeSurfer
 ```bash
 mri_mask your_image.mgz PVT_mask_FreeSurfer.mgz output_masked.mgz
-```
-
-### CIVET
-Use `PVT_mask_CIVET.mnc` with standard MINC tools:
-```bash
-minccalc -expression 'A*B' your_image.mnc PVT_mask_CIVET.mnc output_masked.mnc
 ```
 
 ---
