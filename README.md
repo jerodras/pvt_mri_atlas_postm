@@ -31,20 +31,6 @@ For full methods and validation, see the associated manuscript:
 
 ---
 
-## Usage examples
-
-### FSL
-```bash
-fslmaths your_image.nii.gz -mas PVT_mask_FSL.nii.gz output_masked.nii.gz
-```
-
-### FreeSurfer
-```bash
-mri_mask your_image.mgz PVT_mask_FreeSurfer.mgz output_masked.mgz
-```
-
----
-
 ## Functional Validation
 
 The mask has been validated using resting-state fMRI from the HCP 7T dataset. Connectivity maps generated using this mask are **highly consistent** with prior MRI-based PVT definitions (DSC > 0.84, R² > 0.85).
